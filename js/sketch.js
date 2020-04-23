@@ -79,5 +79,13 @@ function sendMessage(){
   createNode(folderName, timestamp, nodeData);
   console.log("sent message:");
   console.log(nodeData);
-  }
+} else {
+  alert("uh oh. type message first kamoji");
+}
+
+}
+
+function receiveMessage(){
+  console.log("received message");
+  console.log(fbDataArray[0].messageText);
 }
