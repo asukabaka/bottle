@@ -66,12 +66,18 @@ function draw() {
 
 function sendMessage(){
 
+  if(messageInput.value){
+
+
   let timestamp = Date.now();
 
   nodeData = {
-    messageText: ,
-    timestamp: timestamp;
+    messageText: messageInput.value,
+    timestamp: timestamp,
   }
 
   createNode(folderName, timestamp, nodeData);
+  console.log("sent message:");
+  console.log(nodeData);
+  }
 }
