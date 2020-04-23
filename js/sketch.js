@@ -9,7 +9,7 @@ let database; // reference to our firebase database
 let folderName; // name of folder you create in db
 
 function setup() {
-  
+
   // put setup code here
   // Initialize firebase
 // support for Firebase Realtime Database 4 web here: https://firebase.google.com/docs/database/web/start
@@ -18,13 +18,14 @@ function setup() {
 
 // paste your config file here
 let config = {
-  // apiKey: "",
-  // authDomain: "",
-  // databaseURL: "",
-  // projectId: "",
-  // storageBucket: "",
-  // messagingSenderId: "",
-  // appId: "",
+    apiKey: "AIzaSyAG2u4s7uLQzcP_IZeFCspV3r8Jw8x5X7c",
+    authDomain: "messageinabottle-9d479.firebaseapp.com",
+    databaseURL: "https://messageinabottle-9d479.firebaseio.com",
+    projectId: "messageinabottle-9d479",
+    storageBucket: "messageinabottle-9d479.appspot.com",
+    messagingSenderId: "1055736324910",
+    appId: "1:1055736324910:web:1bee33c463fde9eb2950bf"
+
 };
 
 firebase.initializeApp(config);
