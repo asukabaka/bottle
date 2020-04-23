@@ -65,5 +65,8 @@ function draw() {
 }
 
 function sendMessage(){
-  // createNode(_nodeFolder, _nodeId, _nodeObject)
+
+  Date.now();
+  
+  // createNode(folderName, _nodeId, _nodeObject)
 }
